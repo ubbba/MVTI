@@ -3,7 +3,10 @@
 * {
   box-sizing: border-box;
 }
-
+html,
+body {
+  height: 100vh;
+}
 #main {
   display: block;
 }
@@ -28,18 +31,21 @@
 #main {
   background-color: whitesmoke;
   width: 80%;
-  margin: 0 auto;
   text-align: center;
   border-radius: 20px;
   margin-top: 50px;
   padding: 50px;
   font-family: "Orbit", sans-serif;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #main img {
-  width: 50%;
-  height: 50%;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 #main p {
